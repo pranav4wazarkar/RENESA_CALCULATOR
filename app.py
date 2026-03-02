@@ -5,7 +5,7 @@ import math
 from fpdf import FPDF
 
 # --- APP CONFIGURATION ---
-st.set_page_config(page_title="2026 Seller Command Center", layout="wide", page_icon="📈")
+st.set_page_config(page_title="Seller Command Center", layout="wide", page_icon="📈")
 
 # --- CORE LOGIC (MARCH 2026) ---
 def calculate_2026_economics(platform, price, cogs, region="National"):
